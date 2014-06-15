@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.layoutExample.activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher" >
+
+        <!-- Index Activity -->
+        <activity
+            android:name="IndexActivity"
+            android:label="Index" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Twitter Activity -->
+        <activity
+            android:name="TwitterActivity"
+            android:label="Twitter" >
+        </activity>
+
+        <!-- Instagram Activity -->
+        <activity
+            android:name="InstagramActivity"
+            android:label="Instagram" >
+        </activity>
+        
+    </application>
+
+</manifest>
